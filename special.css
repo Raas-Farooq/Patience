@@ -1,0 +1,254 @@
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+/* navbar Styling */
+.navbar .navbar-expand-sm{
+  background-color: transparent;
+  color: white;
+}
+.navbar-default{
+    background-color:transparent;
+    border-color:transparent;
+}
+.navbar-default.active{
+    background-image: url('https://mashup-template-vhxltiimxa.now.sh/assets/images/wave-header.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:white;
+}
+.section-container{
+    padding:60px 0;
+}
+/* Image container styling */
+
+.image-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.image-container{
+    background-image: url('https://mashup-template-vhxltiimxa.now.sh/assets/images/wave-hero-background.svg');
+    padding:18% 0;
+    text-align: center;
+}
+
+/* button inside Image container - styling */
+
+.btn-custom{
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+}
+@media (min-width:600px){
+    .btn-custom{
+        width:300px;
+    }
+
+}
+p{
+    color:#838383;
+    margin-bottom: 2rem;
+}
+
+/* Outside image Container :Third container Styling */
+.col-xl-12.col-md-8{
+    margin-left: 16%;
+}
+@media (min-width: 108px){
+  .col-md-8 {
+    flex:auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    width:66%;
+   }
+}
+h2{
+    font-size: 50px;
+    color:rgb(77, 77, 255);
+}
+h2:after{
+    content:'...';
+    display:block;
+    color:rgb(77, 77, 255);
+}
+
+/* Carousel styling */
+
+@media (min-width:992px) {
+    .carousel-inner>.item>a>img,
+    .carousel-inner .carousel-item img{
+        max-width: 80%;
+        max-height: 80;
+        
+    }
+    
+}
+.carousel-item img{
+    max-width: 100%;
+    margin-left:30px;
+}
+.carousel-inner>.carousel-item>img {
+    display: block;
+    height: auto;
+    line-height: 1;
+}
+
+/* Carousel Caption Styling */
+@media (min-width:992px){
+    .carousel-caption{
+        padding:40px;
+        margin-top:-15%;
+        margin-left: 55%;
+    }
+}
+.carousel-caption{
+    color:#838383;
+    align-self:flex-start;
+    text-align: left;
+    background-color: white;
+    top:inherit;
+    right:1%;
+    left:inherit;
+    position: relative;
+    
+}
+.card-shadow{
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 5%), 0 8px 8px rgb(0 0 0 / 5%), 0 16px 16px rgb(0 0 0 / 5%), 0 32px 32px rgb(0 0 0 / 5%);
+}
+@media (max-width:992px){
+    .carousel-caption{
+        right:inherit;
+        bottom: inherit;
+    }
+    .carousel-caption > h2,p,button {
+        margin-left: 20px;
+    }
+    .carousel-caption.card-shadow{
+        box-shadow: none;
+    }
+
+}.carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right{
+    opacity:1;
+}
+.carousel-fade .carousel-inner .item{
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .item{
+    transition-property:opacity;
+}
+
+/* Carousel Control Styling */
+.carousel-control-next,
+.carousel-control-prev{
+    background-color: none;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height:20px;
+}
+/* IF there is space in class name then you have to use . between the words for styling:- Example*/
+
+.container.fourth h2:after{
+    content:none;
+}
+
+/* IF Both classes applied to one Element Example*/
+/* Indicators */
+
+
+
+.left.carousel-control{
+    background-color: crimson;
+}
+.right.carousel-control{
+    background-color: crimson;
+}
+
+/* Fifth Container Pictures*/
+@media (max-width:992px){
+    .small-image{
+        width:200px;
+    }
+}
+@media (max-width:768px){
+    .small-image{
+        width:inherit;
+    }
+    .info{
+        margin-right:20px;
+    }
+}
+.small-image{
+    
+    margin-bottom: 1rem;
+}
+.fifth.container h4{
+    font-size: 20px;
+    color:#838383;
+}
+.fifth.container p{
+    margin-bottom: 1rem;
+    color:#838383;
+}
+.info>p{
+    margin-bottom:7px;
+}
+
+/* Sixth Container logo Pics*/
+
+
+@media (max-width: 992px){
+.logo-main {
+    margin: 15px auto;
+    }
+}
+.logo-main{
+    max-width: 100%;
+    height: auto;
+}
+/* CARD and IMage*/
+.image-layer .card-img{
+    width:600px;
+    height:auto;
+    justify-content: center;
+    margin-top:-7rem
+}
+.card-image .card{
+    width:30%;
+}
+@media (max-width:700px){
+    .image-layer .card-img{
+        width:400px;
+        height:auto;
+    }
+    .card-image .card{
+        width:15rem;
+        height:auto
+    }
+}
+.card-image .card{
+    width: 15rem;
+    margin:0 auto;
+}
+.footer{
+    background-image: url('https://mashup-template-vhxltiimxa.now.sh/assets/images/wave-header.svg'); 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:10px;
+}
+
+.col-md-6.footer-col p{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+    text-align: center;
+}
